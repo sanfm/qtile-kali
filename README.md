@@ -57,6 +57,33 @@ A qtile environment for kali
   betterlockscreen -u <Path-to-picture>
   ```
 
+Read "*Things to consider*" and you're ready to restart and login selecting qtile as your window manager.
+
+### Things to consider
+
+1. if you use a user other than kali, you have to edit the qtile.desktop file in order to change the path to your user's
+
+  ```sh
+  sudo vim /usr/share/xsessions/qtile.desktop
+  ```
+Change the line: 
+
+* Exec=/home/kali/.local/bin/qtile start
+
+for:
+
+* Exec=/home/<user-name>/.local/bin/qtile start
+
+
+2. Select the path to the wallpaper in the file ~/.config/qtile/autostart.sh
+
+In that file you have to set the correct path to the wallpaper you want feh to use
+
+
+3. Changing font size
+
+If you think the font size is too small (or too big), you can change it in qtile's config file (~/.config/qtile/config.py) and in rofi's configuration (~/.config/rofi/config.rasi ando also in the rofi's themes files ~/.config/rofi/themes)
+  
 
 ## References
 
