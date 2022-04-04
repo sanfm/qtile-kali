@@ -1,3 +1,3 @@
 #!/bin/bash
 setxkbmap es
-feh --bg-scale ~/Pictures/background-1.webp
+feh --bg-scale ~/Pictures/wallpapers/wp-1.webp
