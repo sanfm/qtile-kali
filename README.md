@@ -25,7 +25,7 @@ A qtile environment for kali
   ```
   
   ```sh
-  pip3 install qlite
+  pip3 install qtile
   ```
   
 ## Istallation
