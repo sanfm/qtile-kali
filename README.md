@@ -72,7 +72,7 @@ Change the line:
 
 for:
 
-* Exec=/home/<user-name>/.local/bin/qtile start
+* Exec=/home/user-name/.local/bin/qtile start
 
 
 2. Select the path to the wallpaper in the file ~/.config/qtile/autostart.sh
@@ -82,7 +82,7 @@ In that file you have to set the correct path to the wallpaper you want feh to u
 
 3. Changing font size
 
-If you think the font size is too small (or too big), you can change it in qtile's config file (~/.config/qtile/config.py) and in rofi's configuration (~/.config/rofi/config.rasi ando also in the rofi's themes files ~/.config/rofi/themes)
+If you think the font size is too small (or too big), you can change it in qtile's config file (/home/user-name/.config/qtile/config.py) and in rofi's configuration (/home/user-name/.config/rofi/config.rasi ando also in the rofi's themes files /home/user-name/.config/rofi/themes)
   
 
 ## References
