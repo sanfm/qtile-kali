@@ -36,6 +36,7 @@ A qtile environment for kali
 
   ```sh
   git clone https://github.com/sanfm/qtile-kali.git
+  cd qtile-kali
   ```
   
 3. Run setup.sh (as root)
