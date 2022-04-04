@@ -8,6 +8,7 @@ mkdir -p ~/Pictures/wallpapers
 # Copy config files
 cp -r config/qtile/* ~/.config/qtile/
 cp -r config/rofi/* ~/.config/rofi/
+cp config/picom.conf ~/.config
 
 # Copy scripts to the $PATH
 cp -r bin/* ~/.local/bin/
