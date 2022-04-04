@@ -12,6 +12,10 @@ cp -r config/rofi/* ~/.config/rofi/
 # Copy scripts to the $PATH
 cp -r bin/* ~/.local/bin/
 
+chmod 744 ~/.local/bin/lockscreen.sh
+chmod 744 ~/.local/bin/powermenu
+chmod 744 ~/.config/qtile/autostart.sh
+
 # Copy wallpapers
 cp -r wallpapers/* ~/Pictures/wallpapers/
 
