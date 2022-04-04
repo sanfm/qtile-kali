@@ -22,6 +22,7 @@ A qtile environment for kali
   ```sh
   pip3 install xcffib
   pip3 install --no-cache-dir cairocffi
+  pip install psutil
   ```
   
   ```sh
