@@ -16,7 +16,7 @@ A qtile environment for kali
 
 
   ```sh
-  sudo apt install python3 python3-pip libpangocairo-1.0-0 betterlockscreen rofi lxpolkit -y
+  sudo apt install python3 python3-pip libpangocairo-1.0-0 betterlockscreen rofi lxpolkit picom -y
   ```
 
   ```sh
