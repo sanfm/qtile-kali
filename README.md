@@ -51,11 +51,7 @@ A qtile environment for kali
   sh config.sh
   ```
 
-5. Add a background image to betterlockscreen
 
-  ```sh
-  betterlockscreen -u <Path-to-picture>
-  ```
 
 Read "*Things to consider*" and you're ready to restart and login selecting qtile as your window manager.
 
@@ -80,7 +76,15 @@ for:
 In that file you have to set the correct path to the wallpaper you want feh to use
 
 
-3. Changing font size
+3. Change the lock screen background
+
+
+  ```sh
+  betterlockscreen -u <Path-to-picture>
+  ```
+
+
+4. Changing font size
 
 If you think the font size is too small (or too big), you can change it in qtile's config file (/home/user-name/.config/qtile/config.py) and in rofi's configuration (/home/user-name/.config/rofi/config.rasi ando also in the rofi's themes files /home/user-name/.config/rofi/themes)
   
